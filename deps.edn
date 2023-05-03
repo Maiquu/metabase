@@ -404,7 +404,6 @@
                                    "./deps.edn"
                                    "./package.json"
                                    "./shadow-cljs.edn"
-                                   ".circleci"
                                    ".clj-kondo"
                                    ".github"
                                    "bin"
