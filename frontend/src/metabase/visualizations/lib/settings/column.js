@@ -287,6 +287,7 @@ export const NUMBER_COLUMN_SETTINGS = {
         { name: t`Percent`, value: "percent" },
         { name: t`Scientific`, value: "scientific" },
         { name: t`Currency`, value: "currency" },
+        { name: t`Duration`, value: "duration" },
       ],
     },
     getDefault: (column, settings) =>
@@ -378,6 +379,7 @@ export const NUMBER_COLUMN_SETTINGS = {
       ],
     },
     default: ".,",
+    getHidden: (column, settings) => settings["number_style"] === "duration",
   },
   decimals: {
     title: t`Minimum number of decimal places`,
