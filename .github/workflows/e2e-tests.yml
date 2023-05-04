@@ -6,8 +6,7 @@ on:
     - cron: '0 22 * * 0'
   push:
     branches:
-      - "master"
-      - 'release-**'
+      - "main"
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
 
