@@ -1,4 +1,5 @@
 name: Prepare Uberjar Artifact
+description: Attaches artifact metadata and uploads built uberjar artifact
 runs:
   using: "composite"
   steps:
