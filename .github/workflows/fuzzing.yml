@@ -3,8 +3,7 @@ name: Fuzzing
 on:
   push:
     branches:
-      - 'master'
-      - 'release-**'
+      - 'main'
   pull_request:
     paths-ignore:
     - 'docs/**'
