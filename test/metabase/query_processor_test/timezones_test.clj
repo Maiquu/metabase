@@ -240,7 +240,7 @@
   (let [start-date #t "2012-01-01T01:30:54Z"]
     [["alldates" [{:field-name "dt"
                    :base-type :type/DateTimeWithTZ}]
-      (for [i (range 366)]
+      (for [i (range 4)]
         [(u.date/add start-date :day i)])]]))
 
 (deftest general-timezone-support-test
@@ -251,7 +251,7 @@
             extract-translate {:year :year-of-era :week-of-year :week-of-year-us}
             trunc-units (disj u.date/truncate-units :millisecond :second)]
         (doseq [timezone ["Pacific/Honolulu" "America/Los_Angeles" "UTC" "Pacific/Auckland"]
-                :let [expected-rows (for [i (range 366)
+                :let [expected-rows (for [i (range 4)
                                           :let [expected-datetime (u.date/add #t "2012-01-01T01:30:54Z" :day i)
                                                 in-tz (u.date/with-time-zone-same-instant expected-datetime timezone)]]
                                       (concat

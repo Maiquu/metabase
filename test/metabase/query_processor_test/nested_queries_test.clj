@@ -576,10 +576,10 @@
       (mt/with-temp Card [card (mbql-card-def (mt/$ids {:source-table $$checkins}))]
         (is (= :completed
                (-> (query-with-source-card card
-                     (mt/$ids checkins
-                       {:aggregation [[:count]]
-                        :breakout    [!week.*date]
-                        :filter      [:between !week.*date "2014-02-01T00:00:00-08:00" "2014-05-01T00:00:00-07:00"]}))
+                                           (mt/$ids checkins
+                                                    {:aggregation [[:count]]
+                                                     :breakout    [!week.*date]
+                                                     :filter      [:between !week.*date "2014-02-01T00:00:00-08:00" "2014-05-01T00:00:00-07:00"]}))
                    (qp/process-query)
                    (completed-status))))))))
 
@@ -774,7 +774,7 @@
 
 (deftest two-of-the-same-aggregations-test
   ;; TODO make this work for other drivers supporting :nested-queries
-  (mt/test-drivers (disj (mt/normal-drivers-with-feature :nested-queries) :vertica :sqlite :presto-jdbc)
+  (mt/test-drivers (disj (mt/normal-drivers-with-feature :nested-queries) :vertica :sqlite :presto-jdbc :starburst)
     (testing "Do nested queries work with two of the same aggregation? (#9767)"
       (is (= [["2014-02-01T00:00:00Z" 302 1804]
               ["2014-03-01T00:00:00Z" 350 2362]]

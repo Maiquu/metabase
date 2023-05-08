@@ -15,7 +15,6 @@
   (:require [clojure.java.jdbc :as jdbc]
             [clojure.string :as str]
             [clojure.test :refer :all]
-            [honeysql.core :as hsql]
             [java-time :as t]
             [metabase.api.database :as api.database]
             [metabase.db.metadata-queries :as metadata-queries]
@@ -36,20 +35,20 @@
 
 (deftest describe-database-test
   (mt/test-driver :starburst
-                  (is (= {:tables #{{:name "categories" :schema "default"}
-                                    {:name "venues" :schema "default"}
-                                    {:name "checkins" :schema "default"}
-                                    {:name "users" :schema "default"}}}
+                  (is (= {:tables #{{:name "test_data_categories" :schema "default"}
+                                    {:name "test_data_venues" :schema "default"}
+                                    {:name "test_data_checkins" :schema "default"}
+                                    {:name "test_data_users" :schema "default"}}}
                          (-> (driver/describe-database :starburst (mt/db))
-                             (update :tables (comp set (partial filter (comp #{"categories"
-                                                                               "venues"
-                                                                               "checkins"
-                                                                               "users"}
+                             (update :tables (comp set (partial filter (comp #{"test_data_categories"
+                                                                               "test_data_venues"
+                                                                               "test_data_checkins"
+                                                                               "test_data_users"}
                                                                              :name)))))))))
 
 (deftest describe-table-test
   (mt/test-driver :starburst
-                  (is (= {:name   "venues"
+                  (is (= {:name   "test_data_venues"
                           :schema "default"
                           :fields #{{:name          "name",
                        ;; for HTTP based Starburst driver, this is coming back as varchar(255)
@@ -98,7 +97,7 @@
     (is (= {:select ["name" "id"]
             :from   [{:select   [[:default.categories.name "name"]
                                  [:default.categories.id "id"]
-                                 [(hsql/raw "row_number() OVER (ORDER BY \"default\".\"categories\".\"id\" ASC)")
+                                 [[:raw "row_number() OVER (ORDER BY default.categories.id ASC)"]
                                   :__rownum__]]
                       :from     [:default.categories]
                       :order-by [[:default.categories.id :asc]]}]
@@ -145,9 +144,9 @@
                                              {:aggregation [[:count]]
                                               :filter      [:= $name "wow"]})]
                     (testing "The native query returned in query results should use user-friendly splicing"
-                      (is (= (str "SELECT count(*) AS \"count\" "
-                                  "FROM \"default\".\"venues\" "
-                                  "WHERE \"default\".\"venues\".\"name\" = 'wow'")
+                      (is (= (str "SELECT COUNT(*) AS \"count\" "
+                                  "FROM \"default\".\"test_data_venues\" "
+                                  "WHERE \"default\".\"test_data_venues\".\"name\" = 'wow'")
                              (:query (qp/compile-and-splice-parameters query))
                              (-> (qp/process-query query) :data :native_form :query)))))))
 
