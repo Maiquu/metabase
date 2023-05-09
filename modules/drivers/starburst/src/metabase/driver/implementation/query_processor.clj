@@ -15,14 +15,11 @@
   (:require [honey.sql :as sql]
             [honey.sql.helpers :as sql.helpers]
             [java-time :as t]
-            [metabase.driver.sql-jdbc.sync :as sql-jdbc.sync]
             [metabase.driver.sql.query-processor :as sql.qp]
             [metabase.driver.sql.util :as sql.u]
-            [metabase.query-processor.error-type :as qp.error-type]
             [metabase.query-processor.timezone :as qp.timezone]
             [metabase.util.date-2 :as u.date]
-            [metabase.util.honey-sql-2 :as h2x]
-            [metabase.util.i18n :refer [tru]])
+            [metabase.util.honey-sql-2 :as h2x])
     (:import [java.time OffsetDateTime ZonedDateTime]))
 
 (def ^:private ^:const timestamp-with-time-zone-db-type "timestamp with time zone")
@@ -54,7 +51,7 @@
 (defmethod sql.qp/add-interval-honeysql-form :starburst
   [_ hsql-form amount unit]
   (let [type-info   (h2x/type-info hsql-form)
-        out-form [:date_add (h2x/literal unit) amount hsql-form]]
+        out-form [:date_add (h2x/literal unit) [:inline amount] hsql-form]]
   (if (some? type-info)
     (h2x/with-type-info out-form type-info)
     out-form)))
@@ -92,16 +89,6 @@
 ;;; |                                          Date Truncation                                                       |
 ;;; +----------------------------------------------------------------------------------------------------------------+
 
-(defn- at-time-zone
-  [_fn [expr zone]]
-  (let [[expr-sql & expr-args] (sql/format-expr expr {:nested true})
-        [zone-sql & zone-args] (sql/format-expr (h2x/literal zone) {:nested true})]
-    (into [(format "%s AT TIME ZONE %s" expr-sql zone-sql)]
-          cat
-          [expr-args zone-args])))
-
-(sql/register-fn! ::at-time-zone #'at-time-zone)
-
 (defn- in-report-zone
   "Returns a HoneySQL form to interpret the `expr` (a temporal value) in the current report time zone, via Trino's
   `AT TIME ZONE` operator. See https://trino.io/docs/current/functions/datetime.html#time-zone-conversion"
@@ -116,7 +103,7 @@
              ;; if one has already been set, don't do so again
          (not (::in-report-zone? (meta expr)))
          report-zone)
-      (-> (h2x/with-database-type-info [::at-time-zone expr report-zone] timestamp-with-time-zone-db-type)
+      (-> (h2x/with-database-type-info (h2x/at-time-zone expr report-zone) timestamp-with-time-zone-db-type)
           (vary-meta assoc ::in-report-zone? true))
       expr)))
 
@@ -205,7 +192,7 @@
 
 (defmethod sql.qp/->honeysql [:starburst Boolean]
   [_ bool]
-  [(if bool "TRUE" "FALSE")])
+  [:raw (if bool "TRUE" "FALSE")])
 
 (defmethod sql.qp/->honeysql [:starburst :regex-match-first]
   [driver [_ arg pattern]]
@@ -252,37 +239,29 @@
   (let [report-zone (qp.timezone/report-timezone-id-if-supported :starburst)]
     [:from_unixtime expr (h2x/literal (or report-zone "UTC"))]))
 
-(defn- safe-datetime [x]
-  (cond
-    (nil? x) x
-    (= (type x) java.time.LocalDate) (h2x/->timestamp x)
-    (= (keyword (h2x/type-info->db-type (h2x/type-info x))) :date) (h2x/->timestamp x)
-    :else x))
+(defn- timestamp-with-time-zone? [expr]
+  (let [type (h2x/database-type expr)]
+    (and type (re-find #"(?i)^timestamp(?:\(\d+\))? with time zone$" type))))
 
-(defmethod sql.qp/->honeysql [:starburst :datetime-diff]
-  [driver [_ x y unit]]
-  (let [x (sql.qp/->honeysql driver x)
-        y (sql.qp/->honeysql driver y)
-        disallowed-types (keep
-                          (fn [v]
-                            (when-let [db-type (keyword (h2x/type-info->db-type (h2x/type-info v)))]
-                              (let [base-type (sql-jdbc.sync/database-type->base-type driver db-type)]
-                                (when-not (some #(isa? base-type %) [:type/Date :type/DateTime])
-                                  (name db-type)))))
-                          [x y])]
-    (when (seq disallowed-types)
-      (throw (ex-info (tru "Only datetime, timestamp, or date types allowed. Found {0}"
-                           (pr-str disallowed-types))
-                      {:found disallowed-types
-                       :type  qp.error-type/invalid-query})))
-    (case unit
-      (:year :quarter :month :week :day)
-      (let [x-date [:date [::at-time-zone (safe-datetime x) (qp.timezone/results-timezone-id)]]
-            y-date [:date [::at-time-zone (safe-datetime y) (qp.timezone/results-timezone-id)]]]
-        [:date_diff (h2x/literal unit) x-date y-date])
+(defn- ->timestamp-with-time-zone [expr]
+  (if (timestamp-with-time-zone? expr)
+    expr
+    (h2x/cast timestamp-with-time-zone-db-type expr)))
 
-      (:hour :minute :second)
-      [:date_diff (h2x/literal unit) x y])))
+(defn- ->at-time-zone [expr]
+  (h2x/at-time-zone (->timestamp-with-time-zone expr) (qp.timezone/results-timezone-id)))
+
+(doseq [unit [:year :quarter :month :week :day]]
+  (defmethod sql.qp/datetime-diff [:starburst unit] [_driver unit x y]
+    [:date_diff (h2x/literal unit)
+     (h2x/->date (->at-time-zone x))
+     (h2x/->date (->at-time-zone y))]))
+
+(doseq [unit [:hour :minute :second]]
+  (defmethod sql.qp/datetime-diff [:starburst unit] [_driver unit x y]
+    [:date_diff (h2x/literal unit)
+     (->at-time-zone x)
+     (->at-time-zone y)]))
 
 (defmethod sql.qp/->honeysql [:starburst :convert-timezone]
   [driver [_ arg target-timezone source-timezone]]
