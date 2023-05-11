@@ -1,23 +1,8 @@
 name: Build + Docker Uberjar
 
 on:
-  push:
-    branches:
-      - "main"
-    paths-ignore:
-      # config files
-      - ".**"
-      # documentation
-      - 'docs/**'
-      - "**.md"
-      # this covers both BE and FE unit tests, as well as E2E tests
-      - '**test/**'
-      - "**_test.clj"
-      - "**/frontend/**.unit.*"
-  workflow_dispatch:
-    inputs:
-      commit:
-        description: 'Optional full-length commit SHA-1 hash'
+  release:
+    types: [released]
 
 jobs:
   build:
@@ -135,6 +120,10 @@ jobs:
         images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
         tags: |
           type=raw,value=latest
+          type=semver,pattern=v{{version}}
+          type=semver,pattern=v{{major}}.{{minor}}
+          type=semver,pattern=v{{major}}
+          type=sha
 
     - name: Build and push Docker image
       uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
