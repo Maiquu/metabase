@@ -10113,6 +10113,14 @@ msgstr "Döviz biriminin gösterildiği yer"
 msgid "Minimum number of decimal places"
 msgstr "En az ondalık basamak sayısı"
 
+#: frontend/src/metabase/visualizations/lib/settings/column.js:289
+msgid "Scientific"
+msgstr "Bilimsel"
+
+#: frontend/src/metabase/visualizations/lib/settings/column.js:291
+msgid "Duration"
+msgstr "Süre"
+
 #: frontend/src/metabase/visualizations/lib/settings/graph.js:378
 msgid "Stacked chart type"
 msgstr "Yığılı sütun tipi"
@@ -19757,7 +19765,7 @@ msgstr "{0} durumu {1} olarak değiştirdi"
 #: frontend/src/metabase/admin/app/reducers.ts:52
 #: frontend/src/metabase/admin/routes.jsx:210
 msgid "Tools"
-msgstr "Aletler"
+msgstr "Araçlar"
 
 #: enterprise/frontend/src/metabase-enterprise/tools/index.js:26
 msgid "Erroring Questions"
