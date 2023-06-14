@@ -9980,6 +9980,12 @@ msgstr "Bitiş saati"
 msgid "Duration (ms)"
 msgstr "Süre (ms)"
 
+msgid "Duration"
+msgstr "Süre"
+
+msgid "Scientific"
+msgstr "Bilimsel"
+
 #: frontend/src/metabase/admin/settings/components/widgets/FormattingWidget.jsx:34
 #: frontend/src/metabase/lib/core.js:101
 msgid "Currency"
@@ -19757,7 +19763,7 @@ msgstr "{0} durumu {1} olarak değiştirdi"
 #: frontend/src/metabase/admin/app/reducers.ts:52
 #: frontend/src/metabase/admin/routes.jsx:210
 msgid "Tools"
-msgstr "Aletler"
+msgstr "Araçlar"
 
 #: enterprise/frontend/src/metabase-enterprise/tools/index.js:26
 msgid "Erroring Questions"
