@@ -19763,7 +19763,7 @@ msgstr "{0} durumu {1} olarak değiştirdi"
 #: frontend/src/metabase/admin/app/reducers.ts:52
 #: frontend/src/metabase/admin/routes.jsx:210
 msgid "Tools"
-msgstr "Aletler"
+msgstr "Araçlar"
 
 #: enterprise/frontend/src/metabase-enterprise/tools/index.js:26
 msgid "Erroring Questions"
@@ -22690,7 +22690,7 @@ msgstr "Ücretli planlarla her abonelik için filtre değerlerini özelleştireb
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:112
 msgid "Get Help"
-msgstr "Yardım almak"
+msgstr "Yardım al"
 
 #: frontend/src/metabase/admin/tasks/containers/Help.jsx:113
 msgid "Resources and support"
@@ -23875,7 +23875,7 @@ msgstr "Geçersiz cron ifadesi"
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/lib/loading-message.ts:4
 #: frontend/src/metabase/plugins/index.ts:94
 msgid "Doing science..."
-msgstr "Bilim yapmak..."
+msgstr "Bilim yapılıyor..."
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/lib/loading-message.ts:5
 msgid "Running query..."
@@ -23887,7 +23887,7 @@ msgstr "Sonuçlar Yükleniyor..."
 
 #: frontend/src/metabase-lib/queries/StructuredQuery.ts:893
 msgid "Summaries"
-msgstr "özetler"
+msgstr "Özetler"
 
 #: frontend/src/metabase/visualizations/components/ObjectDetail/utils.ts:44
 msgid "Item Detail"
@@ -23899,7 +23899,7 @@ msgstr "Sorgu oluşturucudaki filtrelerin rengi, filtre widget'larındaki düğm
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/FontFilesWidget/utils.ts:12
 msgid "Bold"
-msgstr "Gözü pek"
+msgstr "Kalın"
 
 #: enterprise/frontend/src/metabase-enterprise/whitelabel/components/FontFilesWidget/utils.ts:16
 msgid "Heavy"
