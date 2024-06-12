@@ -579,8 +579,8 @@ msgstr "Metadata styrke"
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableList/MetadataTableList.tsx:227
 msgid "{0} Queryable Table"
 msgid_plural "{0} Queryable Tables"
-msgstr[0] "[0} Spørbar Tabell"
-msgstr[1] "[0} Spørbare Tabeller"
+msgstr[0] "{0} Spørbar Tabell"
+msgstr[1] "{0} Spørbare Tabeller"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableList/MetadataTableList.tsx:222
 msgid "{0} Hidden Table"

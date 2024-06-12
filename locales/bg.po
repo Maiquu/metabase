@@ -28049,7 +28049,7 @@ msgstr "Доставя се на"
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:1013
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:1037
 msgid "Choose from: {0}, {1}, {2}, {3}, {4}, {5}, {6}, ${ 7 }, or {8}."
-msgstr "Изберете от: {0}, {1}, {2}, {3}, {4}, {5}, {6}, ${7 } или {8}."
+msgstr "Изберете от: {0}, {1}, {2}, {3}, {4}, {5}, {6}, ${ 7 } или {8}."
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:639
 msgid "Checks to see if string1 does not contain string2 within it."

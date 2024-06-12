@@ -9301,7 +9301,7 @@ msgstr "Tổng số trường được đồng bộ hóa {0}, số trường đ�
 
 #: metabase/sync/sync_metadata.clj:34
 msgid "Total number of tables sync''d {0}, number of tables updated {1}"
-msgstr "Tổng số bảng được đồng bộ hóa {0}, số lượng bảng được cập nhật {1"
+msgstr "Tổng số bảng được đồng bộ hóa {0}, số lượng bảng được cập nhật {1}"
 
 #: metabase/sync/sync_metadata.clj:38
 msgid "Found timezone id {0}"

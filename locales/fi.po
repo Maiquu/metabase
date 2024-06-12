@@ -30589,8 +30589,8 @@ msgstr "Lisää osio"
 #: frontend/src/metabase/dashboard/components/DashboardHeader/DashboardHeader.tsx:685
 msgid "The {0} parameter requires a default value but none was provided."
 msgid_plural "The {0} parameters require default values but none were provided."
-msgstr[0] "Parametri {0 tarvitsee oletusarvon, mutta sitä ei annettu."
-msgstr[1] "Parametrit {0 tarvitsevat oletusarvot, mutta niitä ei annettu."
+msgstr[0] "Parametri {0} tarvitsee oletusarvon, mutta sitä ei annettu."
+msgstr[1] "Parametrit {0} tarvitsevat oletusarvot, mutta niitä ei annettu."
 
 #: frontend/src/metabase/dashboard/components/EmbedMenu/NonAdminEmbedMenu.tsx:25
 msgid "Ask your admin to create a public link"

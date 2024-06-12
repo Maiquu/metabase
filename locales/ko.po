@@ -4850,7 +4850,7 @@ msgstr "이 질문은 당신의 펄스에 포함되지 않습니다"
 
 #: frontend/src/metabase/pulse/components/PulseEdit.jsx:106
 msgid "This pulse will no longer be emailed to {0} {1}"
-msgstr "이 펄스는 더 이상 {0} (1}로 이메일 전송되지 않습니다"
+msgstr "이 펄스는 더 이상 {0} ({1}로 이메일 전송되지 않습니다"
 
 #: frontend/src/metabase/query_builder/components/AlertModals/AlertModals.jsx:376
 #: frontend/src/metabase/sharing/components/AddEditSidebar/DeleteSubscriptionAction.jsx:16
@@ -5638,7 +5638,7 @@ msgstr[0] "행"
 
 #: frontend/src/metabase/query_builder/components/QueryVisualization.jsx:148
 msgid "Showing first {0} {1}"
-msgstr "첫번째 (0} (1)을(를) 표시합니다"
+msgstr "첫번째 ({0} (1)을(를) 표시합니다"
 
 #: frontend/src/metabase/query_builder/components/QueryVisualization.jsx:151
 msgid "Showing {0} {1}"
@@ -29861,7 +29861,7 @@ msgstr "유효한 이메일 주소여야 합니다."
 
 #: frontend/src/metabase/forms/utils/messages.ts:12
 msgid "Must be {0} characters or less"
-msgstr "0}자 이하여야 합니다."
+msgstr "{0}자 이하여야 합니다."
 
 #: frontend/src/metabase/nav/components/PaymentBanner/PaymentBanner.tsx:46
 msgid "⚠️ Pro features error. "
@@ -30083,7 +30083,7 @@ msgstr "{0}은 {1} 이상입니다."
 
 #: metabase/db/liquibase.clj:297
 msgid "Migration complete in {0}"
-msgstr "0}에서 마이그레이션이 완료되었습니다."
+msgstr "{0}에서 마이그레이션이 완료되었습니다."
 
 #: metabase/db/liquibase.clj:300
 msgid "No unrun migrations found."
@@ -30091,7 +30091,7 @@ msgstr "실행되지 않은 마이그레이션을 찾을 수 없습니다."
 
 #: metabase/db/liquibase.clj:223
 msgid "Migration lock is cleared. Running {0} migrations ..."
-msgstr "마이그레이션 잠금이 해제되었습니다. 0} 마이그레이션 실행 중 ..."
+msgstr "마이그레이션 잠금이 해제되었습니다. {0} 마이그레이션 실행 중 ..."
 
 #: metabase/driver/h2/actions.clj:72 metabase/driver/mysql/actions.clj:58
 #: metabase/driver/mysql/actions.clj:63 metabase/driver/postgres/actions.clj:32
@@ -30182,7 +30182,7 @@ msgstr "이벤트 네임스페이스 로드 중입니다:"
 
 #: metabase/events.clj:145
 msgid "Error publishing {0} event: {1}"
-msgstr "0} 이벤트를 게시하는 동안 오류가 발생했습니다: {1}"
+msgstr "{0} 이벤트를 게시하는 동안 오류가 발생했습니다: {1}"
 
 #: metabase/lib/drill_thru/zoom_in_timeseries.cljc:85
 msgid "See this day by hour"
@@ -30335,7 +30335,7 @@ msgstr "이 데이터베이스를 쿼리하려면 감사 앱 기능 플래그가
 
 #: metabase/query_processor/store.clj:182
 msgid "Failed to fetch {0} {1}"
-msgstr "0} {1}을(를) 가져오지 못했습니다."
+msgstr "{0} {1}을(를) 가져오지 못했습니다."
 
 #: metabase/query_processor/store.clj:131
 msgid "Attempting to initialize metadata provider with new Database {0}. Queries can only reference one Database. Already referencing: {1}"
@@ -30520,7 +30520,7 @@ msgstr "이 {0}에 대한 권한 설정을 변경하면 데이터베이스의 {1
 
 #: frontend/src/metabase/auth/components/ForgotPasswordForm/ForgotPasswordForm.tsx:58
 msgid "The email you use for your {0} account"
-msgstr "0} 계정에 사용하는 이메일입니다."
+msgstr "{0} 계정에 사용하는 이메일입니다."
 
 #: frontend/src/metabase/collections/components/CollectionHeader/CollectionUploadInfoModal.tsx:30
 msgid "Uploads CSVs to {0}"
@@ -30528,7 +30528,7 @@ msgstr "CSV를 {0}에 업로드합니다."
 
 #: frontend/src/metabase/dashboard/components/ClickBehaviorSidebar/hooks.ts:18
 msgid "Open the {0} drill-through menu"
-msgstr "0} 드릴스루 메뉴 열기"
+msgstr "{0} 드릴스루 메뉴 열기"
 
 #: frontend/src/metabase/dashboard/components/DashCard/DashCardVisualization.tsx:139
 msgid "Placeholder Card"
@@ -30542,7 +30542,7 @@ msgstr "섹션 추가"
 #: frontend/src/metabase/dashboard/components/DashboardHeader/DashboardHeader.tsx:685
 msgid "The {0} parameter requires a default value but none was provided."
 msgid_plural "The {0} parameters require default values but none were provided."
-msgstr[0] "0} 매개 변수에 기본값이 필요하지만 기본값이 제공되지 않았습니다."
+msgstr[0] "{0} 매개 변수에 기본값이 필요하지만 기본값이 제공되지 않았습니다."
 
 #: frontend/src/metabase/dashboard/components/EmbedMenu/NonAdminEmbedMenu.tsx:25
 msgid "Ask your admin to create a public link"
@@ -30927,7 +30927,7 @@ msgstr "여기에서 매개변수의 유형과 속성을 구성합니다. 이러
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingOption/EmbeddingOption.tsx:61
 msgid "A \"powered by Metabase\" banner appears on static embeds. You can {0} to remove it."
-msgstr "정적 임베드에 '메타베이스 제공' 배너가 나타납니다. 0}을(를) 제거할 수 있습니다."
+msgstr "정적 임베드에 '메타베이스 제공' 배너가 나타납니다. {0}을(를) 제거할 수 있습니다."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingOption/EmbeddingOption.tsx:63
 msgid "upgrade to a paid plan"
@@ -30948,7 +30948,7 @@ msgstr "프로 및 엔터프라이즈"
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingOption/EmbeddingOption.tsx:114
 msgid "Use interactive embedding when you want to {0} and people want to create their own questions, dashboards, models, and more, all in their own data sandbox."
-msgstr "0}을 원하고 사람들이 자신의 데이터 샌드박스에서 자신만의 질문, 대시보드, 모델 등을 만들고자 할 때 대화형 삽입을 사용하세요."
+msgstr "{0}을 원하고 사람들이 자신의 데이터 샌드박스에서 자신만의 질문, 대시보드, 모델 등을 만들고자 할 때 대화형 삽입을 사용하세요."
 
 #: frontend/src/metabase/admin/settings/components/widgets/EmbeddingOption/EmbeddingOption.tsx:119
 msgid "offer multi-tenant, self-service analytics"
@@ -31025,7 +31025,7 @@ msgstr "{0} 정보"
 
 #: frontend/src/metabase/nav/components/ProfileLink/ProfileLink.jsx:119
 msgid "Thanks for using {0}!"
-msgstr "0}을 이용해 주셔서 감사합니다!"
+msgstr "{0}을 이용해 주셔서 감사합니다!"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:11
 msgid "{0} is no fun without any data"
@@ -31078,7 +31078,7 @@ msgstr "{0} API 키"
 
 #: frontend/src/metabase/auth/components/Login/Login.tsx:40
 msgid "Sign in to {0}"
-msgstr "0}에 로그인"
+msgstr "{0}에 로그인"
 
 #: frontend/src/metabase/browse/components/BrowseModels.tsx:109
 msgid "No models here yet"
@@ -31232,7 +31232,7 @@ msgstr "비공개 Slack 채널에 구독 및 알림을 보내려면 먼저 {0} �
 
 #: frontend/src/metabase/status/components/FileUploadStatusLarge/FileUploadErrorModal.tsx:21
 msgid "There were some errors while uploading {0}:"
-msgstr "0}을(를) 업로드하는 동안 오류가 발생했습니다:"
+msgstr "{0}을(를) 업로드하는 동안 오류가 발생했습니다:"
 
 #: frontend/src/metabase/visualizations/visualizations/DashCardPlaceholder.tsx:56
 msgid "Select question"
@@ -31322,7 +31322,7 @@ msgstr " ({0} API 키 포함)"
 #: frontend/src/metabase/query_builder/components/view/ViewHeader/ViewHeader.jsx:585
 msgid "The {0} variable requires a default value but none was provided."
 msgid_plural "The {0} variables require default values but none were provided."
-msgstr[0] "0} 변수에 기본값이 필요하지만 기본값이 제공되지 않았습니다."
+msgstr[0] "{0} 변수에 기본값이 필요하지만 기본값이 제공되지 않았습니다."
 
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/SmartScalar.jsx:274
 msgid "{0}: {1}"
@@ -31684,19 +31684,19 @@ msgstr "세그먼트"
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:75
 msgid "Add events to {0} to show important milestones, launches, or anything else, right alongside your data."
-msgstr "0}에 이벤트를 추가하여 중요한 마일스톤, 출시 또는 기타 모든 것을 데이터와 함께 바로 표시하세요."
+msgstr "{0}에 이벤트를 추가하여 중요한 마일스톤, 출시 또는 기타 모든 것을 데이터와 함께 바로 표시하세요."
 
 #: frontend/src/metabase/timelines/collections/components/TimelineEmptyState/TimelineEmptyState.tsx:76
 msgid "Events in {0} let you see important milestones, launches, or anything else, right alongside your data."
-msgstr "0}의 이벤트를 사용하면 데이터와 함께 중요한 마일스톤, 출시 또는 기타 모든 것을 바로 확인할 수 있습니다."
+msgstr "{0}의 이벤트를 사용하면 데이터와 함께 중요한 마일스톤, 출시 또는 기타 모든 것을 바로 확인할 수 있습니다."
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:35
 msgid "Add events to {0} to show helpful context alongside your data."
-msgstr "0}에 이벤트를 추가하여 데이터와 함께 유용한 컨텍스트를 표시합니다."
+msgstr "{0}에 이벤트를 추가하여 데이터와 함께 유용한 컨텍스트를 표시합니다."
 
 #: frontend/src/metabase/timelines/questions/components/TimelineEmptyState/TimelineEmptyState.tsx:36
 msgid "Events in {0} let you see helpful context alongside your data."
-msgstr "0}의 이벤트를 사용하면 데이터와 함께 유용한 컨텍스트를 볼 수 있습니다."
+msgstr "{0}의 이벤트를 사용하면 데이터와 함께 유용한 컨텍스트를 볼 수 있습니다."
 
 #: frontend/src/metabase/query_builder/components/expressions/CombineColumns/util.ts:41
 #: frontend/src/metabase/visualizations/visualizations/SmartScalar/SettingsComponents/ComparisonPicker.tsx:275
@@ -31734,7 +31734,7 @@ msgstr "{0} ID는 양의 정수여야 합니다."
 
 #: metabase/db/liquibase.clj:293
 msgid "Running {0} migrations ..."
-msgstr "0} 마이그레이션 실행 중 ..."
+msgstr "{0} 마이그레이션 실행 중 ..."
 
 #: metabase/db/liquibase.clj:228
 msgid "Database has unrun migrations. Checking if migraton lock is taken..."
@@ -32296,7 +32296,7 @@ msgstr "설문조사 활성화 또는 비활성화"
 
 #: metabase/email/messages.clj:714
 msgid "Subscription to {0} removed"
-msgstr "0} 구독 삭제됨"
+msgstr "{0} 구독 삭제됨"
 
 #: metabase/lib/drill_thru/column_extract.cljc:33
 msgid "Extract day, month…"
@@ -32316,7 +32316,7 @@ msgstr "쿼리에서는 소스 열(테이블, 모델 또는 저장된 질문의 
 
 #: metabase/lib/metadata.cljc:201
 msgid "Failed to fetch {0} {1}: either it does not exist, or it belongs to a different Database"
-msgstr "0} {1}을(를) 가져오지 못했습니다: 존재하지 않거나 다른 데이터베이스에 속합니다."
+msgstr "{0} {1}을(를) 가져오지 못했습니다: 존재하지 않거나 다른 데이터베이스에 속합니다."
 
 #: metabase/models/data_permissions.clj:720
 #: metabase/models/data_permissions.clj:835
@@ -32448,7 +32448,7 @@ msgstr "쿼리 결과 작성에 오류가 발생하여 기능이 저하되었습
 
 #: metabase/query_processor/preprocess.clj:133
 msgid "Error preprocessing query in {0}: {1}"
-msgstr "0}에서 쿼리 전처리 중 오류가 발생했습니다: {1}"
+msgstr "{0}에서 쿼리 전처리 중 오류가 발생했습니다: {1}"
 
 #: metabase/query_processor/setup.clj:26
 msgid "Invalid query: missing or invalid query type (:lib/type or :type)"
@@ -32784,7 +32784,7 @@ msgstr "모델 지속성을 사용하도록 설정하면 모델(및 모델을 �
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/InvalidateNowButton.tsx:67
 msgid "Clear all cached results for {0}?"
-msgstr "0}에 대해 캐시된 결과를 모두 지우시겠습니까?"
+msgstr "{0}에 대해 캐시된 결과를 모두 지우시겠습니까?"
 
 #: enterprise/frontend/src/metabase-enterprise/caching/components/InvalidateNowButton.tsx:67
 msgid "this object"
@@ -33375,7 +33375,7 @@ msgstr "\"{0}\"을 다른 열과 결합하기"
 #: frontend/src/metabase/query_builder/components/expressions/CombineColumns/CombineColumns.tsx:181
 #: frontend/src/metabase/querying/utils/drills/combine-columns-drill/components/CombineColumnsDrill/CombineColumnsDrill.tsx:155
 msgid "Separated by {0}"
-msgstr "0}으로 구분"
+msgstr "{0}으로 구분"
 
 #: frontend/src/metabase/query_builder/components/expressions/CombineColumns/CombineColumns.tsx:194
 #: frontend/src/metabase/querying/utils/drills/combine-columns-drill/components/CombineColumnsDrill/CombineColumnsDrill.tsx:166
@@ -33631,7 +33631,7 @@ msgstr " 자세한 내용을 보려면 클릭하세요."
 
 #: frontend/src/metabase/components/Schedule/components.tsx:96
 msgid "Your {0} timezone"
-msgstr "0} 시간대"
+msgstr "{0} 시간대"
 
 #: frontend/src/metabase/components/Schedule/constants.ts:55
 msgid "calendar day"
@@ -33844,7 +33844,7 @@ msgstr "자동 업데이트 받기"
 
 #: frontend/src/metabase/components/ConfirmDeleteModal.tsx:25
 msgid "Delete {0} permanently?"
-msgstr "0}을 영구적으로 삭제하시겠습니까?"
+msgstr "{0}을 영구적으로 삭제하시겠습니까?"
 
 #: frontend/src/metabase/containers/AddToDashSelectDashModal/AddToDashSelectDashModal.tsx:22
 msgid "Add this metric to a dashboard"
@@ -33911,7 +33911,7 @@ msgstr "권한 구성"
 #: frontend/src/metabase/admin/permissions/components/PermissionsConfirm.jsx:75
 msgid "{0} will only be able to use the query\n"
 "builder for {1}."
-msgstr "0}은 {1}에 대한 쿼리만 사용할 수 있습니다.\n"
+msgstr "{0}은 {1}에 대한 쿼리만 사용할 수 있습니다.\n"
 "빌더만 사용할 수 있습니다."
 
 #: frontend/src/metabase/admin/permissions/components/PermissionsConfirm.jsx:81
@@ -34023,7 +34023,7 @@ msgstr "메타베이스 클라우드로 마이그레이션 실패"
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationError.tsx:37
 msgid "Migration to Metabase Cloud failed on {0}."
-msgstr "0}에서 메타베이스 클라우드로 마이그레이션하지 못했습니다."
+msgstr "{0}에서 메타베이스 클라우드로 마이그레이션하지 못했습니다."
 
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:20
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationInProgress.tsx:21
@@ -34331,7 +34331,7 @@ msgstr "삭제 {0}?"
 #: enterprise/frontend/src/metabase-enterprise/upload_management/DeleteConfirmModal.tsx:23
 msgctxt "{0} is the number of database tables to be deleted"
 msgid "Delete {0} tables?"
-msgstr "0} 테이블을 삭제하시겠습니까?"
+msgstr "{0} 테이블을 삭제하시겠습니까?"
 
 #: frontend/src/metabase/archive/utils.ts:20
 msgctxt "{0} is the name of the entity being trashed, e.g. My Awesome Dashboard"
@@ -34356,7 +34356,7 @@ msgstr "나중에 다시 시도하고 도움이 필요하면 {0}번으로 문의
 #: frontend/src/metabase/admin/settings/components/CloudPanel/MigrationSuccess.tsx:42
 msgctxt "{0} is the date and time the snapshot was uploaded"
 msgid "Snapshot uploaded on {0}."
-msgstr "0}에 스냅샷을 업로드했습니다."
+msgstr "{0}에 스냅샷을 업로드했습니다."
 
 #: frontend/src/metabase/nav/containers/MainNavbar/MainNavbarContainer/MainNavbarView.tsx:113
 msgctxt "A verb, shown in the sidebar"
@@ -34391,7 +34391,7 @@ msgstr "무효화할 항목이 없습니다."
 
 #: metabase/api/card.clj:447
 msgid "Card of type {0} is invalid, cannot be saved."
-msgstr "0} 유형의 카드가 유효하지 않으므로 저장할 수 없습니다."
+msgstr "{0} 유형의 카드가 유효하지 않으므로 저장할 수 없습니다."
 
 #: metabase/api/setup.clj:221
 msgid "Get customizable, flexible, and scalable customer-facing analytics in no time"

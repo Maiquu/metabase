@@ -7037,7 +7037,7 @@ msgstr "撤销设置"
 
 #: frontend/src/metabase/visualizations/components/TableSimple/TableFooter.tsx:55
 msgid "Rows {0}-{1} of {2}"
-msgstr " {2} 的 {0 }~ {1} 行"
+msgstr " {2} 的 {0}~ {1} 行"
 
 #: frontend/src/metabase/visualizations/components/Visualization/Visualization.jsx:132
 msgid "Data truncated to {0} rows."
@@ -28822,7 +28822,7 @@ msgstr "修改了这"
 
 #: metabase/models/revision/diff.clj:55
 msgid "moved {0} to {1}"
-msgstr "将{0}移至{1｝"
+msgstr "将{0}移至{1}"
 
 #: metabase/models/revision/diff.clj:80
 msgid "disabled collection preview"
@@ -30239,7 +30239,7 @@ msgstr "{0}在{1}中，从{2}前开始"
 
 #: metabase/lib/filter.cljc:136
 msgid "{0} excludes {1} {2} selections"
-msgstr "{0}不包括 {1｝{2}选择"
+msgstr "{0}不包括 {1}{2}选择"
 
 #: metabase/lib/filter.cljc:277 metabase/lib/filter.cljc:281
 msgid "{0}"

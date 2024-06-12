@@ -12127,7 +12127,7 @@ msgstr "Dupliceer"
 msgid "Tomorrow"
 msgstr "Morgen"
 
-#. This is used for the date filter. For example This year. In Dutch the translation, and probably in other languages, depends on the subject behind. So for example 'This year' translates to 'Dit jaar', but this month is 'Deze maand'. I have updated te transaltion to Deze/dit, but it is probably better if we could specify the translation for each period of time. 
+#. This is used for the date filter. For example This year. In Dutch the translation, and probably in other languages, depends on the subject behind. So for example 'This year' translates to 'Dit jaar', but this month is 'Deze maand'. I have updated te transaltion to Deze/dit, but it is probably better if we could specify the translation for each period of time.
 #. 
 #. In Dutch:
 #. This year = Dit jaar
@@ -18452,7 +18452,7 @@ msgstr "ERROR {0}"
 
 #: metabase/cmd/copy.clj:183
 msgid "copied {0} instances."
-msgstr "gekopieerde {\\an5} gevallen."
+msgstr "gekopieerde {0} gevallen."
 
 #: metabase/cmd/copy.clj:187
 msgid "Copying instances of {0}..."
@@ -27345,7 +27345,7 @@ msgstr "De time-out van de sessie moet positief zijn."
 
 #: metabase/shared/parameters/parameters.cljc:121
 msgid "{0}, {1}, and {2}"
-msgstr "{0, 1 en 2."
+msgstr "{0}, {1} en {2}."
 
 #: metabase/sync/field_values.clj:31
 msgid "Field {0} has not been used since {1}. Skipping..."

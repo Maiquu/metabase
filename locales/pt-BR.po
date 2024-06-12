@@ -4198,7 +4198,7 @@ msgstr "Soma de ..."
 msgid "Sum of all the values of a column."
 msgstr "Soma de todos os valores de uma coluna."
 
-#. Acho que a agregação de "Medium of.... " está ficando errada, pois traduz em 
+#. Acho que a agregação de "Medium of.... " está ficando errada, pois traduz em
 #. "Média de... de" mas vou deixar a tradução assim por enquanto
 #: frontend/src/metabase-lib/v1/operators/constants.js:344
 #: metabase/lib/schema/aggregation.cljc:156
@@ -8265,7 +8265,7 @@ msgstr "{0} por {1}"
 
 #: metabase/xrays/automagic_dashboards/core.clj:223
 msgid "{0} in the {1} segment"
-msgstr "{0] no segmento {1}"
+msgstr "{0} no segmento {1}"
 
 #: metabase/xrays/automagic_dashboards/core.clj:225
 msgid "{0} segment"
@@ -25015,19 +25015,19 @@ msgstr "Appleseed"
 msgid "Sign in with username or email"
 msgstr "Logar com nome de usuário ou email"
 
-#. Model could be an awful generic word.  
+#. Model could be an awful generic word.
 #. I'd keep it as "model" in pt_BR or call it "entidade"
 #: frontend/src/metabase/actions/containers/ActionPicker/ActionPicker.tsx:57
 msgid "No models found"
 msgstr "Nenhuma entidade encontrada"
 
-#. Model could be an awful generic word.  
+#. Model could be an awful generic word.
 #. I'd keep it as "model" in pt_BR or call it "entidade"
 #: frontend/src/metabase/actions/containers/ActionPicker/ActionPicker.tsx:58
 msgid "Create new model"
 msgstr "Criar novo modelo"
 
-#. Model could be an awful generic word.  
+#. Model could be an awful generic word.
 #. I'd keep it as "model" in pt_BR or call it "entidade"
 #: frontend/src/metabase/actions/containers/ActionPicker/ActionPicker.tsx:134
 msgid "There are no actions for this model"
@@ -25696,7 +25696,7 @@ msgstr "Use uma consulta nativa"
 msgid "You can always fall back to a SQL or native query, which is a bit more manual."
 msgstr "Você sempre pode voltar para uma consulta SQL ou nativa, o que é um pouco mais manual."
 
-#. Model could be an awful generic word.  
+#. Model could be an awful generic word.
 #. I'd keep it as "model" in pt_BR or call it "entidade"
 #: frontend/src/metabase/models/containers/NewModelOptions/NewModelOptions.tsx:105
 msgid "What's a model?"
@@ -25743,7 +25743,7 @@ msgstr "Múltiplos valores"
 msgid "A single value"
 msgstr "Um único valor"
 
-#. Model could be an awful generic word, but could also be translated as "modelo"  
+#. Model could be an awful generic word, but could also be translated as "modelo"
 #. I'd keep it as "model" in pt_BR (assuming that users are a bit more technical) or call it "entidade" (which would literally translate to entity)
 #. could be trans
 #: frontend/src/metabase/query_builder/components/DatasetEditor/DatasetEditor.jsx:445

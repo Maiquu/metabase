@@ -14337,7 +14337,7 @@ msgstr "Weiß nicht, wie ich {0} mit dem Formats {1} zerlegen kann"
 
 #: metabase/util/embed.clj:109
 msgid "Token is missing value for keypath {0}"
-msgstr "Token fehlt Wert für Schlüsselpfad {0]"
+msgstr "Token fehlt Wert für Schlüsselpfad {0}"
 
 #: metabase/analytics/stats.clj:437
 msgid "Sending usage stats FAILED"
@@ -16114,7 +16114,7 @@ msgstr "Wenn aktiviert, erhalten Administratoren eine E-Mail wenn ein Benutzer e
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:89
 msgid "Use the settings below to configure your SSO via SAML. If you have any questions, check out our {0}."
-msgstr "Verwenden Sie die nachfolgenden Einstellungen, um Ihr SSO via SAML zu konfigurieren. Wenn Sie Fragen haben, prüfen Sie unser {0]."
+msgstr "Verwenden Sie die nachfolgenden Einstellungen, um Ihr SSO via SAML zu konfigurieren. Wenn Sie Fragen haben, prüfen Sie unser {0}."
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:92
 #: frontend/src/metabase/public/components/EmbedModal/StaticEmbedSetupPane/AppearanceSettings.tsx:74

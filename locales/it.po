@@ -8349,11 +8349,11 @@ msgstr "{0} è {1}"
 #: metabase/lib/filter.cljc:235
 #: metabase/xrays/automagic_dashboards/names.clj:198
 msgid "{0} is between {1} and {2}"
-msgstr "0} è tra {1} e {2}"
+msgstr "{0} è tra {1} e {2}"
 
 #: metabase/xrays/automagic_dashboards/names.clj:202
 msgid "{0} is between {1} and {2}; and {3} is between {4} and {5}"
-msgstr "0} è tra {1} e {2}; e {3} è tra {4} e {5}"
+msgstr "{0} è tra {1} e {2}; e {3} è tra {4} e {5}"
 
 #: metabase/xrays/automagic_dashboards/names.clj:225
 msgid "where {0}"
@@ -18980,7 +18980,7 @@ msgstr "Filtro per gruppi"
 #: frontend/src/metabase/admin/people/components/GroupDetail.jsx:165
 msgid "{0} member"
 msgid_plural "{0} members"
-msgstr[0] "{0) iscritto"
+msgstr[0] "{0} iscritto"
 msgstr[1] "{0} iscritti"
 
 #: frontend/src/metabase/admin/people/components/PeopleList.jsx:233
@@ -21463,7 +21463,7 @@ msgstr "Il valore predefinito è false se un qualsiasi database non predefinito 
 
 #: metabase/pulse.clj:468
 msgid "Alert: {0} has {1}"
-msgstr "Avviso: [0] ha {1]"
+msgstr "Avviso: {0} ha {1}"
 
 #: metabase/pulse/render/body.clj:617 metabase/pulse/render/body.clj:619
 msgid "Nothing to compare to."

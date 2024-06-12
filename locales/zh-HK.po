@@ -30194,7 +30194,7 @@ msgstr "{0}在{1}中，从{2}前开始"
 
 #: metabase/lib/filter.cljc:136
 msgid "{0} excludes {1} {2} selections"
-msgstr "{0}不包括 {1｝{2}选择"
+msgstr "{0}不包括 {1}{2}选择"
 
 #: metabase/lib/filter.cljc:277 metabase/lib/filter.cljc:281
 msgid "{0}"

@@ -9346,7 +9346,7 @@ msgstr "Помилка генерування відбитків пальців 
 
 #: metabase/sync/field_values.clj:70
 msgid "Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
-msgstr "Оновлені значення {0} поле набори, створені {1}, {2, віддалені з} {3} помилки"
+msgstr "Оновлені значення {0} поле набори, створені {1}, {2} віддалені {3} помилки"
 
 #: metabase/sync/sync_metadata.clj:30
 msgid "Total number of fields sync''d {0}, number of fields updated {1}"
@@ -10450,11 +10450,11 @@ msgstr "чверть"
 #: src/metabase/automagic_dashboards/populate.clj
 #: target/classes/metabase/automagic_dashboards/populate.clj
 msgid "Adding {0} cards to dashboard {1}:n{2}"
-msgstr "Додаємо {0} карток до дашборду {1}: {2 п}"
+msgstr "Додаємо {0} карток до дашборду {1}:n{2}"
 
 #: src/metabase/util/yaml.clj target/classes/metabase/util/yaml.clj
 msgid "Error parsing {0}:n{1}"
-msgstr "Помилка синтаксичного аналізу {0}: {1 п}"
+msgstr "Помилка синтаксичного аналізу {0}:п{1}"
 
 #: src/metabase/driver/druid/query_processor.clj
 msgid "WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."

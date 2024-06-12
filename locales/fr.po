@@ -5924,7 +5924,7 @@ msgstr "cette heure"
 
 #: frontend/src/metabase/query_builder/components/filters/FilterPopover.jsx:290
 msgid "not implemented {0}"
-msgstr "{0} non implémenté {0"
+msgstr "{0} non implémenté {0}"
 
 #: frontend/src/metabase/query_builder/components/filters/pickers/BooleanPicker/BooleanPicker.jsx:18
 #: frontend/src/metabase/query_builder/components/filters/pickers/BooleanPicker/BooleanPicker.jsx:22

@@ -15030,10 +15030,10 @@ msgstr[3] "{0} liczba"
 #: frontend/src/metabase/lib/settings.ts:52
 msgid "{0} special character"
 msgid_plural "{0} special characters"
-msgstr[0] "(0} znak specjalny"
-msgstr[1] "(0} znaki specjalne"
-msgstr[2] "(0} znaków specjalnych"
-msgstr[3] "(0} znaków specjalnych"
+msgstr[0] "{0} znak specjalny"
+msgstr[1] "{0} znaki specjalne"
+msgstr[2] "{0} znaków specjalnych"
+msgstr[3] "{0} znaków specjalnych"
 
 #: frontend/src/metabase/lib/errors/validation.ts:7
 #: frontend/src/metabase/lib/validate.js:12
@@ -15901,7 +15901,7 @@ msgstr "Mediana z {0}"
 
 #: metabase/lib/aggregation.cljc:163
 msgid "{0}th percentile of {1}"
-msgstr "{0} percentyl z {1)"
+msgstr "{0} percentyl z {1}"
 
 #: metabase/query_processor/middleware/cache.clj:97
 msgid "Not caching results: results are larger than {0} KB"
@@ -19823,7 +19823,7 @@ msgstr "Zalecamy aktualizację do wersji"
 
 #: frontend/src/metabase/databases/components/DatabaseEngineWarning/DatabaseEngineWarning.tsx:84
 msgid "new {0} driver"
-msgstr "nowy sterownik {0"
+msgstr "nowy sterownik {0}"
 
 #: frontend/src/metabase/components/DriverWarning/DriverWarning.jsx:71
 msgid ", which is faster and more reliable."

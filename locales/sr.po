@@ -23988,7 +23988,7 @@ msgstr "1. Kliknite na dugme ispod i kreirajte svoju Slack aplikaciju"
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:103
 msgid "First, {0} using the Metabase configuration. Once created, click “${ 1 }” to authorize it."
-msgstr "Prvo, {0} koristeći konfiguraciju Metabase. Nakon kreiranja, kliknite na „${ 1}“ da biste ga autorizovali."
+msgstr "Prvo, {0} koristeći konfiguraciju Metabase. Nakon kreiranja, kliknite na „${ 1 }“ da biste ga autorizovali."
 
 #: frontend/src/metabase/admin/settings/slack/components/SlackSetup/SlackSetup.tsx:104
 msgid "click the button below to create your Slack App"
