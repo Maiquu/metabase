@@ -13118,7 +13118,7 @@ msgstr "Arşivlensin mi?"
 
 #: frontend/src/metabase/browse/components/BrowseApp.tsx:177
 msgid "Learn about our data"
-msgstr "Veri hakkında daha fazla"
+msgstr "Veri hakkında daha fazla bilgi öğrenin"
 
 #: frontend/src/metabase/entities/databases/forms.js:27
 msgid "Use DNS SRV when connecting"
@@ -13348,7 +13348,7 @@ msgstr "Başlangıç"
 msgid "{0} row"
 msgid_plural "{0} rows"
 msgstr[0] "{0} satır"
-msgstr[1] "{0} satırlar"
+msgstr[1] "{0} satır"
 
 #: frontend/src/metabase/query_builder/components/view/QuestionRowCount.jsx:29
 msgid "Show all rows"
@@ -13360,7 +13360,7 @@ msgstr "{0} adet göster"
 
 #: frontend/src/metabase/query_builder/components/view/QuestionRowCount/QuestionRowCount.tsx:173
 msgid "Showing first {0}"
-msgstr "İlk {0} değer gösteriliyor"
+msgstr "İlk {0} gösteriliyor"
 
 #: frontend/src/metabase/query_builder/components/view/QuestionRowCount/QuestionRowCount.tsx:165
 #: frontend/src/metabase/query_builder/components/view/QuestionRowCount/QuestionRowCount.tsx:178
@@ -19965,7 +19965,7 @@ msgstr "Bu sayfadan şimdi ayrılırsanız değişiklikleriniz kaydedilmeyecek."
 #: frontend/src/metabase/components/LeaveConfirmationModal/LeaveConfirmationModalContent.tsx:18
 #: frontend/src/metabase/public/components/EmbedModal/StaticEmbedSetupPane/EmbedModalContentStatusBar.tsx:48
 msgid "Discard changes"
-msgstr "Değişiklikleri at"
+msgstr "Değişiklikleri kaydetmeden çık"
 
 #: frontend/src/metabase/admin/permissions/pages/CollectionPermissionsPage/CollectionPermissionsPage.tsx:125
 msgid "Select a collection to see its permissions"
@@ -28415,11 +28415,11 @@ msgstr "Açık değil"
 
 #: frontend/src/metabase/querying/utils/drills/quick-filter-drill/quick-filter-drill.tsx:74
 msgid "Is {0}"
-msgstr "{0} mı"
+msgstr "{0} ise"
 
 #: frontend/src/metabase/querying/utils/drills/quick-filter-drill/quick-filter-drill.tsx:80
 msgid "Is not {0}"
-msgstr "{0} değil"
+msgstr "{0} değil ise"
 
 #: frontend/src/metabase/querying/utils/drills/quick-filter-drill/quick-filter-drill.tsx:86
 msgid "Contains…"
@@ -29879,7 +29879,7 @@ msgstr "Değişiklikleriniz kaydedilmemiştir, bu nedenle uzaklaşırsanız bunl
 
 #: frontend/src/metabase/components/LeaveConfirmationModal/LeaveConfirmationModalContent.tsx:21
 msgid "Discard your changes?"
-msgstr "Değişikliklerinizi atalım mı?"
+msgstr "Değişiklikleri kaydetmeden çıkmak istiyor musunuz?"
 
 #: frontend/src/metabase/dashboard/components/AddSeriesModal/AddSeriesModal.tsx:160
 msgid "Unable to combine these questions"
