@@ -540,7 +540,7 @@ msgstr[1] "{0} şema"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:257
 msgid "Why Hide?"
-msgstr "Neden Gizledin?"
+msgstr "Neden Gizli?"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTable/MetadataTable.tsx:262
 msgid "Technical Data"
@@ -634,7 +634,7 @@ msgstr "Oluşturuldu"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:27
 msgid "reverted to a previous version"
-msgstr "Önceki versiyona geri döndü"
+msgstr "Önceki bir sürüme geri döndü"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:33
 msgid "edited the title"
@@ -642,11 +642,11 @@ msgstr "Başlığı düzenledi"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:35
 msgid "edited the description"
-msgstr "Açıklama düzenlendi"
+msgstr "Açıklamayı düzenledi"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:37
 msgid "edited the "
-msgstr "Düzenlenmiş"
+msgstr "şunu düzenledi:"
 
 #: frontend/src/metabase/admin/datamodel/components/revisions/Revision.jsx:40
 msgid "made some changes"
@@ -673,11 +673,11 @@ msgstr "Revizyon Geçmişi için"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataFieldSettings/MetadataFieldSettings.tsx:202
 msgid "{0} – Field Settings"
-msgstr "{0} –Alan Ayarları"
+msgstr "{0} – Alan Ayarları"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:144
 msgid "Where this field will appear throughout Metabase"
-msgstr "Bu alanın Metabase de nerede görüneceği"
+msgstr "Bu alan Metabase genelinde nerede görünecek"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:273
 msgid "Filtering on this field"
@@ -722,19 +722,19 @@ msgstr "Tanınmayan eşleşme türü"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldRemappingSettings/FieldRemappingSettings.jsx:110
 msgid "Current field isn't a foreign key or FK target table metadata is missing"
-msgstr "Geçerli alan yabancı anahtar değil veya hedef tablosundaki yabancı anahtar verileri eksik"
+msgstr "Geçerli alan bir yabancı anahtar değil veya hedef tabloya ait yabancı anahtar metadatası eksik"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldRemappingSettings/FieldRemappingSettings.jsx:201
 msgid "The selected field isn't a foreign key"
-msgstr "Seçilen alan yabancı anahtar değildir"
+msgstr "Seçilen alan bir yabancı anahtar değil"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:298
 msgid "Display values"
-msgstr "Ekran değerleri"
+msgstr "Görüntülenen değerler"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:299
 msgid "Choose to show the original value from the database, or have this field display associated or custom information."
-msgstr "Orijinal değeri veritabanından göstermeyi seçin, veya bu alanın ilişkili veya özel bilgileri gösterilmesini sağlayın"
+msgstr "Veritabanındaki orijinal değeri gösterebilir veya bu alanın ilişkili ya da özel bilgileri görüntülemesini seçebilirsiniz."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldRemappingSettings/FieldRemappingSettings.jsx:266
 msgid "Choose a field"
@@ -759,26 +759,26 @@ msgstr "Önbelleğe alınmış alan değerleri"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:319
 msgid "Metabase can scan the values for this field to enable checkbox filters in dashboards and questions."
-msgstr "Metabase, kontrol paneli filtrelerinde ve sorgularda onay kutu filtrelerini etkinleştirmek için bu alanın değerlerini tarayabilir."
+msgstr "Metabase, panolarda ve sorularda onay kutusu filtrelerini etkinleştirmek için bu alanın değerlerini tarayabilir."
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:324
 msgid "Re-scan this field"
-msgstr "Bu alanı yeniden tara"
+msgstr "Bu alanı tekrar tara"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:332
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableSettings/MetadataTableSettings.tsx:105
 msgid "Discard cached field values"
-msgstr "Önbelleğe alınmış değerleri atın"
+msgstr "Önbelleğe alınmış alan değerlerini kaldır"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:334
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableSettings/MetadataTableSettings.tsx:107
 msgid "Failed to discard values"
-msgstr "Değerler alamadı"
+msgstr "Değerler kaldırılırken hata oluştu"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/FieldGeneralSettings/FieldGeneralSettings.tsx:335
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataTableSettings/MetadataTableSettings.tsx:108
 msgid "Discard triggered!"
-msgstr "Tetik atın!"
+msgstr "Kaldırma işlemi başlatıldı!"
 
 #: frontend/src/metabase/admin/datamodel/metadata/components/MetadataEditor/MetadataEditor.tsx:74
 msgid "Select any table to see its schema and add or edit metadata."
@@ -1509,7 +1509,7 @@ msgstr "Yapılandır"
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:13
 #: frontend/src/metabase/admin/settings/components/SettingsLdapForm.tsx:150
 msgid "LDAP"
-msgstr "LDAP(Basit İndeks Erişim Protokolü)"
+msgstr "LDAP"
 
 #: frontend/src/metabase/admin/settings/auth/containers/LdapAuthCard/LdapAuthCard.tsx:14
 msgid "Allows users within your LDAP directory to log in to Metabase with their LDAP credentials, and allows automatic mapping of LDAP groups to Metabase groups."
@@ -2209,7 +2209,7 @@ msgstr "Oturum aç"
 
 #: frontend/src/metabase/auth/components/PasswordPanel/PasswordPanel.tsx:45
 msgid "I seem to have forgotten my password"
-msgstr "Galiba şifremi unuttum"
+msgstr "Parolamı unuttum"
 
 #: frontend/src/metabase/auth/containers/PasswordResetApp.jsx:66
 msgid "request a new reset email"
@@ -2217,7 +2217,7 @@ msgstr "yeni bir sıfırlama e-postası iste"
 
 #: frontend/src/metabase/auth/components/ResetPassword/ResetPassword.tsx:64
 msgid "Whoops, that's an expired link"
-msgstr "Whoops, bağlantı geçerlilik süresi doldu"
+msgstr "Bu bağlantının süresi doldu"
 
 #: frontend/src/metabase/auth/containers/PasswordResetApp.jsx:125
 msgid "For security reasons, password reset links expire after a little while. If you still need\n"
@@ -2387,7 +2387,7 @@ msgstr "{0}'ı göndermek için, bir yöneticinin {1} entegrasyon kurması gerek
 
 #: frontend/src/metabase/components/CollectionEmptyState.jsx:15
 msgid "This collection is empty, like a blank canvas"
-msgstr "Bu koleksiyon boş, boş bir tuval gibi"
+msgstr "Bu koleksiyon boş"
 
 #: frontend/src/metabase/components/CollectionEmptyState.jsx:16
 msgid "You can use collections to organize and group dashboards, questions and pulses for your team or yourself"
@@ -2634,7 +2634,7 @@ msgstr "Tam hata mesajı "
 
 #: frontend/src/metabase/components/ExplorePane.jsx:17
 msgid "Hi, Metabot here."
-msgstr "Merhaba, Metabot burada."
+msgstr "Metabot"
 
 #: frontend/src/metabase/home/homepage/components/XraySection/XraySection.tsx:73
 msgid "Based on the schema"
@@ -2703,7 +2703,7 @@ msgstr "Bir şeyler ters gitti"
 
 #: frontend/src/metabase/components/ErrorPages/ErrorPages.tsx:21
 msgid "We've run into an error. You can try refreshing the page, or just go back."
-msgstr "Bir hatayla karşılaştık. Sayfayı yenilemeyi deneyebilir veya sadece geri dönebilirsiniz."
+msgstr "Bir hata oluştu. Sayfayı yenilemeyi deneyebilir veya geri dönebilirsiniz."
 
 #: frontend/src/metabase/reference/components/Detail.jsx:42
 #: frontend/src/metabase/reference/databases/DatabaseDetail.jsx:140
@@ -2825,11 +2825,11 @@ msgstr "Üye Ol"
 
 #: frontend/src/metabase/setup/components/NewsletterForm/NewsletterForm.tsx:74
 msgid "You're subscribed. Thanks for using Metabase!"
-msgstr "Üye oldunuz. Metabase kullandığınız için teşekkür ederiz."
+msgstr "Abone oldunuz. Metabase kullandığınız için teşekkürler."
 
 #: frontend/src/metabase/components/ErrorPages/ErrorPages.tsx:47
 msgid "We're a little lost..."
-msgstr "Biraz kaybolduk..."
+msgstr "Sayfa bulunamadı"
 
 #: frontend/src/metabase/components/PasswordReveal/PasswordReveal.jsx:36
 msgid "Temporary Password"
@@ -2858,7 +2858,7 @@ msgstr "Kaydedildi! Dashboard'a eklensin mi?"
 
 #: frontend/src/metabase/components/QuestionSavedModal/QuestionSavedModal.tsx:27
 msgid "Yes please!"
-msgstr "Evet lütfen!"
+msgstr "Evet"
 
 #: frontend/src/metabase/components/QuestionSavedModal/QuestionSavedModal.tsx:31
 msgid "Not now"
@@ -3020,7 +3020,7 @@ msgstr "nın"
 
 #: frontend/src/metabase/home/components/HomeGreeting/HomeGreeting.tsx:27
 msgid "Don't tell anyone, but you're my favorite."
-msgstr "Kimseye söyleme, sen benim favorimsin."
+msgstr "Hoş geldiniz."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:82
 msgid "Once you connect your own data, I can show you some automatic explorations called x-rays. Here are some examples with sample data."
@@ -3138,7 +3138,7 @@ msgstr "Soru ara"
 
 #: frontend/src/metabase/dashboard/components/AddSeriesModal/QuestionListItem.jsx:41
 msgid "We're not sure if this question is compatible"
-msgstr "Bu sorunun uyumlu olup olmadığından emin değiliz."
+msgstr "Bu sorunun uyumlu olup olmadığı belirsiz"
 
 #: frontend/src/metabase/dashboard/components/ArchiveDashboardModal.jsx:43
 msgid "Archive Dashboard"
@@ -3154,7 +3154,7 @@ msgstr "Bu gösterge paneli boş görünüyor."
 
 #: frontend/src/metabase/dashboard/components/Dashboard/DashboardEmptyState/DashboardEmptyState.jsx:24
 msgid "Add a question to start making it useful!"
-msgstr "Kullanmaya başlamak için bir soru ekleyin!"
+msgstr "Kullanmaya başlamak için bir soru ekleyin."
 
 #: frontend/src/metabase/dashboard/components/DashboardActions.jsx:94
 msgid "Daytime mode"
@@ -3284,7 +3284,7 @@ msgstr "Bu soruyu kaldırılsın mı?"
 
 #: frontend/src/metabase/dashboard/containers/AutomaticDashboardApp.jsx:81
 msgid "Your dashboard was saved"
-msgstr "Paneliniz kadedildi"
+msgstr "Panonuz kaydedildi"
 
 #: frontend/src/metabase/collections/components/CollectionCopyEntityModal.jsx:63
 #: frontend/src/metabase/dashboard/containers/AutomaticDashboardApp.jsx:86
@@ -3306,7 +3306,7 @@ msgstr "Bu kartın, bu parametre türüne eşlenebilecek herhangi bir alanı vey
 
 #: frontend/src/metabase/dashboard/containers/DashCardCardParameterMapper.jsx:145
 msgid "The values in this field don't overlap with the values of any other fields you've chosen."
-msgstr "Bu alandaki değerler, seçtiğiniz diğer alanların değerleriyle örtüşmez."
+msgstr "Bu alandaki değerler, seçtiğiniz diğer alanların değerleriyle örtüşmüyor."
 
 #: frontend/src/metabase/dashboard/components/DashCard/DashCardParameterMapper/DashCardCardParameterMapper.tsx:178
 #: frontend/src/metabase/visualizations/components/settings/ChartSettingFieldPicker.jsx:71
@@ -3331,7 +3331,7 @@ msgstr "Gösterge tablonuzun adı nedir?"
 
 #: frontend/src/metabase/home/components/Activity.jsx:94
 msgid "did some super awesome stuff that's hard to describe"
-msgstr "tanımlamak zor bazı süper müthiş şeyler yaptım"
+msgstr "çeşitli işlemler gerçekleştirdi"
 
 #: frontend/src/metabase/home/components/Activity.jsx:103
 #: frontend/src/metabase/home/components/Activity.jsx:118
@@ -3452,11 +3452,11 @@ msgstr "katıldı!"
 
 #: frontend/src/metabase/home/components/Activity.jsx:533
 msgid "Hmmm, looks like nothing has happened yet."
-msgstr "Hmmm, henüz hiçbir şey olmamış gibi görünüyor."
+msgstr "Henüz hiçbir etkinlik bulunmuyor."
 
 #: frontend/src/metabase/home/components/Activity.jsx:536
 msgid "Save a question and get this baby going!"
-msgstr "Soruyu kaydet ve kapat."
+msgstr "Başlamak için bir soru kaydedin."
 
 #: frontend/src/metabase/home/components/NewUserOnboardingModal.jsx:19
 msgid "Ask questions and explore"
@@ -3484,7 +3484,7 @@ msgstr "Güçlü ve esnek gösterge tabloları oluşturun ve e-posta veya Slack 
 
 #: frontend/src/metabase/home/components/NewUserOnboardingModal.jsx:97
 msgid "Let's go"
-msgstr "Hadi gidelim"
+msgstr "Başla"
 
 #: frontend/src/metabase/home/components/NextStep.jsx:34
 msgid "Setup Tip"
@@ -3660,7 +3660,7 @@ msgstr "Ürün"
 
 #: frontend/src/metabase/lib/core.js:190
 msgid "User"
-msgstr "kullanıcı"
+msgstr "Kullanıcı"
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:156
 #: frontend/src/metabase/lib/core.js:302
@@ -3704,7 +3704,7 @@ msgstr "Abone"
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:227
 #: frontend/src/metabase/lib/core.js:140
 msgid "Score"
-msgstr "Gol"
+msgstr "Skor"
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:268
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:333
@@ -3719,7 +3719,7 @@ msgstr "Başlık"
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:392
 #: frontend/src/metabase/lib/core.js:38
 msgid "Comment"
-msgstr "Yorum "
+msgstr "Yorum"
 
 #: frontend/src/metabase/lib/core.js:96
 msgid "Cost"
@@ -3845,7 +3845,7 @@ msgstr "Maksimum"
 
 #: frontend/src/metabase/lib/expressions/parser.js:373
 msgid "sad sad panda, lexing errors detected"
-msgstr "çok üzgün panda, lexing hataları tespit edildi"
+msgstr "Sözdizimi hataları tespit edildi"
 
 #: frontend/src/metabase/lib/formatting/time.ts:29
 msgid "{0} second"
@@ -3861,7 +3861,7 @@ msgstr[1] "{0} dakikalar"
 
 #: frontend/src/metabase/lib/greeting.js:4
 msgid "Hey there"
-msgstr "Selam"
+msgstr "Merhaba"
 
 #: frontend/src/metabase/lib/greeting.js:5
 #: frontend/src/metabase/lib/greeting.js:29
@@ -3878,19 +3878,19 @@ msgstr "Selamlar"
 
 #: frontend/src/metabase/lib/greeting.js:8
 msgid "Good to see you"
-msgstr "Seni gördüğume memnun oldum"
+msgstr "Hoş geldiniz"
 
 #: frontend/src/metabase/lib/greeting.js:12
 msgid "What do you want to know?"
-msgstr "Neyi öğrenmek istiyorsun?"
+msgstr "Ne öğrenmek istiyorsunuz?"
 
 #: frontend/src/metabase/lib/greeting.js:13
 msgid "What's on your mind?"
-msgstr "Aklından ne geçiyor?"
+msgstr "Neyi araştırmak istiyorsunuz?"
 
 #: frontend/src/metabase/lib/greeting.js:14
 msgid "What do you want to find out?"
-msgstr "Ne öğrenmek istiyorsun?"
+msgstr "Ne bulmak istiyorsunuz?"
 
 #: frontend/src/metabase-lib/v1/operators/constants.js:314
 #: frontend/src/metabase/admin/datamodel/components/AggregationWidget/AggregationWidget.jsx:67
@@ -4905,7 +4905,7 @@ msgstr "Ham veri soruları yalnızca e-posta ekleri olarak eklenebilir"
 
 #: frontend/src/metabase/pulse/components/PulseEditCards.jsx:118
 msgid "Looks like this pulse is getting big"
-msgstr "Bu bildirim büyük oluyor gibi görünüyor"
+msgstr "Bu bildirim çok büyük"
 
 #: frontend/src/metabase/pulse/components/PulseEditCards.jsx:119
 msgid "We recommend keeping pulses small and focused to help keep them digestible and useful to the whole team."
@@ -4980,7 +4980,7 @@ msgstr "{0} bir yönetici tarafından kurulmalıdır."
 
 #: frontend/src/metabase/pulse/components/PulseEditChannels.jsx:291
 msgid "Slack"
-msgstr "Gevşek"
+msgstr "Slack"
 
 #: frontend/src/metabase/pulse/components/PulseEditCollection.jsx:13
 msgid "Which collection should this pulse live in?"
@@ -5104,7 +5104,7 @@ msgstr "{0} {1} ile diğerlerini karşılaştır"
 
 #: frontend/src/metabase/querying/utils/drills/distribution-drill/distribution-drill.ts:13
 msgid "Distribution"
-msgstr "Dağıtım"
+msgstr "Dağılım"
 
 #: frontend/src/metabase/querying/utils/drills/fk-details-drill/fk-details-drill.ts:17
 #: frontend/src/metabase/querying/utils/drills/pk-drill/pk-drill.ts:17
@@ -5215,7 +5215,7 @@ msgstr "uyarılar"
 
 #: frontend/src/metabase/query_builder/components/AlertModals/AlertModals.jsx:161
 msgid "Let's set up your alert"
-msgstr "Hadi uyarınızı ayarlayalım"
+msgstr "Uyarınızı ayarlayın"
 
 #: frontend/src/metabase/query_builder/components/AlertModals/AlertModals.jsx:201
 msgid "The wide world of alerts"
@@ -5637,15 +5637,15 @@ msgstr "{0} {1} gösteriliyor"
 
 #: frontend/src/metabase/query_builder/components/QueryVisualization.jsx:124
 msgid "Doing science"
-msgstr "Yükleniyor"
+msgstr "İşleniyor"
 
 #: frontend/src/metabase/query_builder/components/QueryVisualization.jsx:149
 msgid "If you give me some data I can show you something cool. Run a Query!"
-msgstr "Bana biraz veri verirsen sana güzel bir şey gösterebilirim. Bir Sorguyu Çalıştırın!"
+msgstr "Sonuçları görüntülemek için bir sorgu çalıştırın."
 
 #: frontend/src/metabase/query_builder/components/QueryVisualization.jsx:299
 msgid "How do I use this thing?"
-msgstr "Bu şeyi nasıl kullanırım?"
+msgstr "Nasıl kullanılır?"
 
 #: frontend/src/metabase/query_builder/components/RunButton.tsx:66
 msgid "Get Answer"
@@ -5653,7 +5653,7 @@ msgstr "Cevap almak"
 
 #: frontend/src/metabase/query_builder/components/SavedQuestionIntroModal.tsx:21
 msgid "It's okay to play around with saved questions"
-msgstr "Kayıtlı sorularla oynamak için sorun yok."
+msgstr "Kayıtlı sorular üzerinde değişiklik yapabilirsiniz"
 
 #: frontend/src/metabase/query_builder/components/SavedQuestionIntroModal.jsx:14
 msgid "You won't make any permanent changes to a saved question unless you click the edit icon in the top-right."
@@ -5669,7 +5669,7 @@ msgstr "İleri..."
 
 #: frontend/src/metabase/query_builder/components/SelectionModule.jsx:158
 msgid "Sorry. Something went wrong."
-msgstr "Afedersiniz. Bir şeyler yanlış gitti."
+msgstr "Bir hata oluştu."
 
 #: frontend/src/metabase/query_builder/components/TimeGroupingPopover.jsx:16
 msgid "Group time by"
@@ -5681,7 +5681,7 @@ msgstr "Senin sorunun çok uzun sürdü"
 
 #: frontend/src/metabase/query_builder/components/VisualizationError/VisualizationError.tsx:67
 msgid "We didn't get an answer back from your database in time, so we had to stop. You can try again in a minute, or if the problem persists, you can email an admin to let them know."
-msgstr "Veritabanından zamanında cevap alamadık, bu yüzden durmak zorunda kaldık. Bir dakika sonra tekrar deneyebilirsin, ya da problem devam ederse, bir yöneticiye bildirmek için e-posta gönderebilirsiniz."
+msgstr "Veritabanınızdan zamanında yanıt alınamadı. Bir dakika sonra tekrar deneyebilirsiniz veya sorun devam ederse bir yönetici ile iletişime geçebilirsiniz."
 
 #: frontend/src/metabase/query_builder/components/VisualizationError/VisualizationError.tsx:76
 msgid "We're experiencing server issues"
@@ -5689,7 +5689,7 @@ msgstr "Sunucu sorunları yaşıyoruz"
 
 #: frontend/src/metabase/query_builder/components/VisualizationError/VisualizationError.tsx:77
 msgid "Try refreshing the page after waiting a minute or two. If the problem persists we'd recommend you contact an admin."
-msgstr "Bir ya da iki dakika bekledikten sonra sayfayı yenilemeyi deneyin. Sorun devam ederse, bir yöneticiye başvurmanızı öneririz."
+msgstr "Bir iki dakika bekledikten sonra sayfayı yenilemeyi deneyin. Sorun devam ederse bir yönetici ile iletişime geçmenizi öneririz."
 
 #: frontend/src/metabase/query_builder/components/VisualizationError/VisualizationError.tsx:158
 msgid "There was a problem with your question"
@@ -5709,7 +5709,7 @@ msgstr "Bazı sonuçlar olduğunda {0} da yapabilirsiniz."
 
 #: frontend/src/metabase/query_builder/components/VisualizationResult.jsx:85
 msgid "get an alert"
-msgstr "bir uyarı al"
+msgstr "uyarı alın"
 
 #: frontend/src/metabase/query_builder/components/VisualizationResult.jsx:77
 msgid "Back to last run"
@@ -6313,7 +6313,7 @@ msgstr "Bu alana x-ray"
 #: frontend/src/metabase/models/containers/NewModelOptions/NewModelOptions.tsx:104
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:7
 msgid "Metabase is no fun without any data"
-msgstr "Metbase veri olmadan eğlenceli değildir"
+msgstr "Metabase veri olmadan çalışmaz"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:12
 msgid "Your databases will appear here once you connect one"
@@ -6445,7 +6445,7 @@ msgstr "Verilerimizi keşfedin"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuide.jsx:322
 msgid "Have questions?"
-msgstr "Soruların var mı?"
+msgstr "Sorularınız mı var?"
 
 #: frontend/src/metabase/reference/guide/GettingStartedGuide.jsx:327
 msgid "Contact {0}"
@@ -6743,7 +6743,7 @@ msgstr "Her şey çalışıyor gibi görünüyor. Şimdi sizi tanıyalım, veril
 
 #: frontend/src/metabase/setup/components/WelcomePage/WelcomePage.tsx:48
 msgid "Let's get started"
-msgstr "Başlayalım"
+msgstr "Başla"
 
 #: frontend/src/metabase/setup/components/CompletedStep/CompletedStep.tsx:29
 msgid "You're all set up!"
@@ -6759,7 +6759,7 @@ msgstr "Size nasıl hitap etmeliyiz?"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:156
 msgid "Hi, {0}. nice to meet you!"
-msgstr "Merhaba {0}. tanıştığıma memnun oldum!"
+msgstr "Merhaba, {0}."
 
 #: frontend/src/metabase/account/password/components/UserPasswordForm/UserPasswordForm.tsx:80
 #: frontend/src/metabase/auth/components/ResetPasswordForm/ResetPasswordForm.tsx:72
@@ -6773,7 +6773,7 @@ msgstr "Şifre oluştur"
 #: frontend/src/metabase/auth/components/ResetPasswordForm/ResetPasswordForm.tsx:73
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:93
 msgid "Shhh..."
-msgstr "Shhh ..."
+msgstr "Şifrenizi girin"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:265
 msgid "Confirm password"
@@ -6783,7 +6783,7 @@ msgstr "Şifreyi Onayla"
 #: frontend/src/metabase/auth/components/ResetPasswordForm/ResetPasswordForm.tsx:81
 #: frontend/src/metabase/setup/components/UserForm/UserForm.tsx:99
 msgid "Shhh... but one more time so we get it right"
-msgstr "Shhh ... ama bir kez daha doğru anlıyoruz"
+msgstr "Şifrenizi tekrar girin"
 
 #: frontend/src/metabase/entities/users/forms.js:87
 msgid "Your company or team name"
@@ -6791,7 +6791,7 @@ msgstr "Şirketiniz veya takımın adı"
 
 #: frontend/src/metabase/setup/components/UserStep.jsx:291
 msgid "Department of awesome"
-msgstr "Harika departmanı"
+msgstr "Şirket adı"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:24
 msgid "Metabot is admiring your integers…"
@@ -6803,7 +6803,7 @@ msgstr "Metabot milyarlarca diferansiyel denklem gerçekleştiriyor…"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:26
 msgid "Metabot is doing science…"
-msgstr "Metabot bilim yapıyor"
+msgstr "Metabot analiz yapıyor…"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:27
 msgid "Metabot is checking out your metrics…"
@@ -6819,7 +6819,7 @@ msgstr "Metabot kuantum abakusa danışıyor…"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:30
 msgid "Metabot is feeling pretty good about all this…"
-msgstr "Metabot, bu konuda oldukça iyi hissetilir…"
+msgstr "Metabot işleme devam ediyor…"
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:49
 msgid "We’ll show you some interesting explorations of your data in\n"
@@ -6832,11 +6832,11 @@ msgstr "Bu biraz zaman alıyor gibi görünüyor. Bu arada, Metabase sizin için
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:83
 msgid "I took a look at the data you just connected, and I have some explorations of interesting things I found. Hope you like them!"
-msgstr "Bağladığın verilere bir baktım ve bulduğum ilginç şeylerden bazı keşiflerim var. Umarım onları beğenirsin!"
+msgstr "Bağladığınız verileri inceledim ve bazı ilginç bulgular keşfettim."
 
 #: frontend/src/metabase/setup/containers/PostSetupApp.jsx:95
 msgid "I'm done exploring for now"
-msgstr "Şimdilik keşif bitti"
+msgstr "Keşfi tamamla"
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:20
 msgid "Welcome to the Query Builder!"
@@ -6872,11 +6872,11 @@ msgstr "Burada kaç gün veri görmek istediğimizi seçebiliriz. 10'u deneyin"
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:116
 msgid "Here's where you can choose to add or average your data, count the number of rows in the table, or just view the raw data."
-msgstr "Verilerinizi eklemeyi veya ortalamalamayı seçebileceğiniz yerler burda.Ablodaki satır sayısını sayın yada sadece verileri görüntüleyin."
+msgstr "Burada verilerinizi toplamayı veya ortalamasını almayı seçebilir, tablodaki satır sayısını sayabilir veya ham verileri görüntüleyebilirsiniz."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:118
 msgid "Try it: click on <strong>Raw Data</strong> to change it to <strong>Count of rows</strong> so we can count how many orders there are in this table."
-msgstr "Denyin: <strong> Satır sayısı </ strong> olarak değiştirmek için <strong> Ham Veri </ strong> 'yi tıklayın. Böylece bu tabloda kaç tane sipariş olduğunu sayabiliriz."
+msgstr "<strong>Ham Veri</strong>'ye tıklayarak <strong>Satır sayısı</strong> olarak değiştirin. Böylece bu tabloda kaç sipariş olduğunu sayabilirsiniz."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:142
 msgid "Add a grouping to break out your results by category, day, month, and more."
@@ -6884,7 +6884,7 @@ msgstr "Sonuçlarınızı kategoriye, güne, aya ve daha fazlasına göre ayırm
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:144
 msgid "Let's do it: click on <strong>Add a grouping</strong>, and choose <strong>Created At: by Week</strong>."
-msgstr "Haydi Yapalım şunu: <strong> Grup ekle </ strong> 'yi tıklayın ve <strong> Oluşturulan At: Haftaya </ strong>' yı seçin."
+msgstr "<strong>Gruplama ekle</strong>'ye tıklayın ve <strong>Oluşturma tarihi: Haftalık</strong> seçeneğini seçin."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:152
 msgid "Click on \"by day\" to change it to \"Week.\""
@@ -6896,7 +6896,7 @@ msgstr "Sorgunuzu Çalıştırın."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:175
 msgid "You're doing so well! Click <strong>Run query</strong> to get your results!"
-msgstr "Çok iyi gidiyorsun! Sonuçlarınızı almak için <strong> Sorguyu çalıştır </ strong> 'ı tıklayın."
+msgstr "Sonuçlarınızı almak için <strong>Sorguyu çalıştır</strong> seçeneğine tıklayın."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:192
 msgid "You can view your results as a chart instead of a table."
@@ -6904,11 +6904,11 @@ msgstr "Sonuçlarınızı bir tablo yerine bir grafik olarak görüntüleyebilir
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:194
 msgid "Everbody likes charts! Click the <strong>Visualization</strong> dropdown and select <strong>Line</strong>."
-msgstr "Herkes çizelgeleri sever! <Strong> Görselleştirme </ strong> açılır menüsünü tıklayın ve <strong> Satır </ strong> 'ı seçin."
+msgstr "<strong>Görselleştirme</strong> açılır menüsünü tıklayın ve <strong>Çizgi</strong>'yi seçin."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:216
 msgid "Well done!"
-msgstr "Aferin!"
+msgstr "Tamamlandı"
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:218
 msgid "That's all! If you still have questions, check out our"
@@ -6920,7 +6920,7 @@ msgstr "Kullanıcı Kılavuzu"
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:223
 msgid "Have fun exploring your data!"
-msgstr "Verilerinizi keşfetmek eğlenceler!"
+msgstr "Verilerinizi keşfetmeye başlayın."
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:226
 msgid "Thanks"
@@ -6936,15 +6936,15 @@ msgstr "Bu arada, Sorularınızı kaydedebilirsiniz, böylece daha sonra bunlara
 
 #: frontend/src/metabase/tutorial/QueryBuilderTutorial.jsx:241
 msgid "Sounds good"
-msgstr "Kulağa iyi geliyor"
+msgstr "Tamam"
 
 #: frontend/src/metabase/tutorial/Tutorial.jsx:248
 msgid "Whoops!"
-msgstr "Whoops!"
+msgstr "Hata!"
 
 #: frontend/src/metabase/tutorial/Tutorial.jsx:249
 msgid "Sorry, it looks like something went wrong. Please try restarting the tutorial in a minute."
-msgstr "Üzgünüz, bir şeyler ters gitti gibi görünüyor. Lütfen eğiticiyi bir dakika içinde yeniden başlatmayı deneyin."
+msgstr "Bir hata oluştu. Lütfen öğreticiyi bir dakika içinde yeniden başlatmayı deneyin."
 
 #: frontend/src/metabase/account/password/actions.js:28
 msgid "Password updated successfully!"
@@ -7238,7 +7238,7 @@ msgstr "Hedef"
 
 #: frontend/src/metabase/visualizations/lib/errors.js:6
 msgid "Doh! The data from your query doesn't fit the chosen display choice. This visualization requires at least {0} {1} of data."
-msgstr "Doh! Sorgunuzdaki veriler seçilen ekran seçimine uymuyor. Bu görselleştirme en az {0} {1} veri gerektirir."
+msgstr "Sorgunuzdaki veriler seçilen görüntüleme seçeneğine uymuyor. Bu görselleştirme en az {0} {1} veri gerektirir."
 
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:57
 #: frontend/src/metabase-lib/v1/expressions/helper-text-strings.ts:69
@@ -7286,7 +7286,7 @@ msgstr "sütun"
 
 #: frontend/src/metabase/visualizations/lib/errors.js:18
 msgid "No dice. We have {0} data {1} to show and that's not enough for this visualization."
-msgstr "Zar yok. Gösterilecek {0} veri {1} var ve bu görselleştirme için yeterli değil."
+msgstr "Gösterilecek {0} veri {1} mevcut ve bu görselleştirme için yeterli değil."
 
 #: frontend/src/metabase/visualizations/lib/errors.js:18
 msgid "point"
@@ -7296,7 +7296,7 @@ msgstr[1] "noktalar"
 
 #: frontend/src/metabase/visualizations/lib/errors.js:30
 msgid "Bummer. We can't actually do a pin map for this data because we require both a latitude and longitude column."
-msgstr "Aylak. Bu veriler için aslında bir iğne haritası oluşturamayız çünkü hem enlem hem boylam sütununa ihtiyacımız var."
+msgstr "Bu veriler için iğne haritası oluşturulamıyor. Hem enlem hem boylam sütunu gereklidir."
 
 #: frontend/src/metabase/visualizations/lib/errors.js:46
 msgid "Please configure this chart in the chart settings"
@@ -7663,11 +7663,11 @@ msgstr "Boyut"
 
 #: frontend/src/metabase/visualizations/visualizations/PieChart/PieChart.jsx:127
 msgid "Show legend"
-msgstr "Gösteriyi göster"
+msgstr "Lejantı göster"
 
 #: frontend/src/metabase/visualizations/visualizations/PieChart/PieChart.jsx:128
 msgid "Show percentages in legend"
-msgstr "Grafikte yüzdeleri göster"
+msgstr "Lejant üzerinde yüzdeleri göster"
 
 #: frontend/src/metabase/visualizations/visualizations/PieChart/PieChart.jsx:155
 msgid "Minimum slice percentage"
@@ -7676,7 +7676,7 @@ msgstr "Minimum dilim yüzdesi"
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:31
 #: frontend/src/metabase/visualizations/visualizations/Progress/Progress.jsx:163
 msgid "Goal met"
-msgstr "Hedef bir araya geldi"
+msgstr "Hedefe ulaşıldı"
 
 #: frontend/src/metabase/static-viz/components/ProgressBar/utils.ts:33
 #: frontend/src/metabase/visualizations/visualizations/Progress/Progress.jsx:165
@@ -8457,7 +8457,7 @@ msgstr "Metabase DB'yi kurma ve taşıma. Lütfen bekleyin, Bu bir dakika süreb
 
 #: metabase/core.clj:130
 msgid "Looks like this is a new installation ... preparing setup wizard"
-msgstr "Görünüşe göre bu yeni bir kurulum ... kurulum sihirbazını hazırlama"
+msgstr "Yeni kurulum tespit edildi ... kurulum sihirbazı hazırlanıyor"
 
 #: metabase/core.clj:137
 msgid "Metabase Initialization COMPLETE"
@@ -8530,7 +8530,7 @@ msgstr "Veritabanı Geçişleri"
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Hmm, we couldn''t connect to the database."
-msgstr "Hmm, veritabanına bağlanamadık."
+msgstr "Veritabanına bağlanılamadı."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Make sure your host and port settings are correct"
@@ -8550,11 +8550,11 @@ msgstr "Ana bilgisayar adını ve bağlantı noktasını kontrol edin."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Looks like the database name is incorrect."
-msgstr "Veritabanı adı yanlış gibi görünüyor."
+msgstr "Veritabanı adı yanlış görünüyor."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "It looks like your host is invalid."
-msgstr "Ana makinenizin geçersiz olduğu anlaşılıyor."
+msgstr "Ana makine geçersiz görünüyor."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Please double-check it and try again."
@@ -8562,15 +8562,15 @@ msgstr "Lütfen tekrar kontrol edip tekrar deneyin."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Looks like your password is incorrect."
-msgstr "Şifreniz yanlış görünüyor."
+msgstr "Şifre yanlış görünüyor."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Looks like you forgot to enter your password."
-msgstr "Şifreni girmeyi unutmuş gibisin."
+msgstr "Şifre girilmedi."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Looks like your username is incorrect."
-msgstr "Kullanıcı adın yanlış gibi görünüyor."
+msgstr "Kullanıcı adı yanlış görünüyor."
 
 #: src/metabase/driver/common.clj target/classes/metabase/driver/common.clj
 msgid "Looks like the username or password is incorrect."
@@ -8760,7 +8760,7 @@ msgstr "{0} `{1}` .n {2} nasıl yapılacağını bilmiyorum"
 
 #: target/classes/metabase/metabot/slack.clj
 msgid "Uh oh! :cry:n> {0}"
-msgstr "Ah ah! : korkarım: n> {0}"
+msgstr "Hata: {0}"
 
 #: src/metabase/metabot/command.clj
 msgid "Here''s your {0} most recent cards:n{1}"
@@ -8792,7 +8792,7 @@ msgstr "Metabot komutunun değerlendirilmesi:"
 
 #: src/metabase/metabot.clj
 msgid "Go home websocket, you're drunk."
-msgstr "Eve git websocket, sarhoşsun."
+msgstr "WebSocket bağlantı hatası."
 
 #: target/classes/metabase/metabot/websocket.clj
 msgid "Error launching metabot:"
@@ -8956,7 +8956,7 @@ msgstr "Ancak, isimler İngilizce dışında bir dilde ise, o kadar iyi çalış
 
 #: src/metabase/models/humanization.clj
 msgid "Do you want us to take a guess?"
-msgstr "Tahmin etmemizi ister misin?"
+msgstr "Bu özelliği etkinleştirmek ister misiniz?"
 
 #: src/metabase/models/permissions.clj
 msgid "You cannot create or revoke permissions for the 'Admin' group."
@@ -9983,7 +9983,7 @@ msgstr "Üzgünüz, bu kartı görme izniniz yok."
 
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModal.jsx:55
 msgid "Just a heads up:"
-msgstr "Sadece bir uyarı"
+msgstr "Uyarı:"
 
 #: frontend/src/metabase/admin/databases/components/DeleteDatabaseModal.jsx:63
 msgid "{0} without the Sample Dataset, the Query Builder tutorial won't work. You can always restore the Sample Dataset, but any questions you've saved using this data will be lost."
@@ -15072,7 +15072,7 @@ msgstr "Yabancı anahtar seçin"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:108
 msgid "Hi, {0}. Nice to meet you!"
-msgstr "Merhaba, {0}. Tanıştığıma memnun oldum!"
+msgstr "Merhaba, {0}."
 
 #: frontend/src/metabase/visualizations/lib/settings/column.js:235
 msgid "12-hour clock"
@@ -16029,7 +16029,7 @@ msgstr "SAML Anahtar Deposu Şifresi"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:179
 msgid "Shh..."
-msgstr "Şşş..."
+msgstr "Gizli"
 
 #: enterprise/frontend/src/metabase-enterprise/auth/components/SettingsSAMLForm/SettingsSAMLForm.jsx:183
 #: enterprise/frontend/src/metabase-enterprise/auth/index.js:150
@@ -20142,7 +20142,7 @@ msgstr "\"team@mycompany.com\" gibi bir e-posta dağıtım listesinin üyesiysen
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:39
 msgid "Hopefully they’ll be able to help you out!"
-msgstr "Umarım size yardımcı olabilirler!"
+msgstr "Size yardımcı olabilirler."
 
 #: frontend/src/metabase/account/notifications/components/HelpModal/HelpModal.jsx:58
 msgid "your instance administrator"
@@ -21655,7 +21655,7 @@ msgstr "Deneme süreniz {0} gün içinde sona eriyor. Halihazırda bir lisansın
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/LicenseAndBillingSettings/LicenseAndBillingSettings.tsx:55
 msgid "Your license is active until {0}! Hope you’re enjoying it."
-msgstr "Lisansınız {0} tarihine kadar aktif! umarım eğleniyorsundur"
+msgstr "Lisansınız {0} tarihine kadar aktif."
 
 #: enterprise/frontend/src/metabase-enterprise/license/components/BillingInfo/BillingGoToStore.tsx:14
 #: enterprise/frontend/src/metabase-enterprise/license/components/BillingInfo/BillingInfoError.tsx:10
@@ -21768,7 +21768,7 @@ msgstr "Hepsi tamam!"
 
 #: frontend/src/metabase/auth/components/ResetPassword/ResetPassword.tsx:120
 msgid "Awesome, you've successfully updated your password."
-msgstr "Harika, şifreni başarıyla güncelledin."
+msgstr "Parolanız başarıyla güncellendi."
 
 #: frontend/src/metabase/auth/components/ResetPassword/ResetPassword.tsx:66
 msgid "For security reasons, password reset links expire after a little while. If you still need to reset your password, you can request a new reset email."
@@ -23738,7 +23738,7 @@ msgstr "Atlamak"
 
 #: frontend/src/metabase/setup/components/UserStep/UserStep.tsx:58
 msgid "Hi{0}. Nice to meet you!"
-msgstr "Merhaba{0}. Tanıştığıma memnun oldum!"
+msgstr "Merhaba{0}."
 
 #: frontend/src/metabase/visualizations/components/ObjectDetail/ObjectRelationships.tsx:46
 msgid "{0} is connected to:"
@@ -24444,7 +24444,7 @@ msgstr "şifreni kontrol et"
 
 #: metabase/driver/util.clj:36
 msgid "Hmm, we couldn''t connect to the database. Make sure your Host and Port settings are correct"
-msgstr "Hmm, veritabanına bağlanamadık. Ana Bilgisayar ve Bağlantı Noktası ayarlarınızın doğru olduğundan emin olun"
+msgstr "Veritabanına bağlanılamadı. Ana Bilgisayar ve Bağlantı Noktası ayarlarınızın doğru olduğundan emin olun."
 
 #: metabase/driver/util.clj:44
 msgid "We couldn''t connect to the SSH tunnel host. Check the Username and Password."
@@ -26413,7 +26413,7 @@ msgstr "Yüzdeleri göster"
 
 #: frontend/src/metabase/visualizations/visualizations/PieChart/PieChart.jsx:148
 msgid "In legend"
-msgstr "Efsanede"
+msgstr "Lejantta"
 
 #: frontend/src/metabase/visualizations/visualizations/PieChart/PieChart.jsx:149
 msgid "On the chart"
@@ -27783,7 +27783,7 @@ msgstr "Nasıldım?"
 
 #: frontend/src/metabase/metabot/components/MetabotFeedback/MetabotFeedback.tsx:76
 msgid "This is great!"
-msgstr "Bu harika!"
+msgstr "Bu iyi!"
 
 #: frontend/src/metabase/metabot/components/MetabotFeedback/MetabotFeedback.tsx:77
 msgid "This used the wrong data."
@@ -29575,8 +29575,8 @@ msgstr "Geçersiz girdi: {0}"
 #: frontend/src/metabase/querying/utils/drills/underlying-records-drill/underlying-records-drill.ts:22
 msgid "See this {0}{1}"
 msgid_plural "See these {0}"
-msgstr[0] "Bu {0}{1} bak"
-msgstr[1] "şu {0} bak"
+msgstr[0] "İlgili {0}{1}"
+msgstr[1] "İlgili {0}"
 
 #: enterprise/frontend/src/metabase-enterprise/collections/components/CollectionInstanceAnalyticsIcon.tsx:35
 msgid "This is a read-only Instance Analytics {0}."
@@ -31083,11 +31083,11 @@ msgstr "{0} kullandığınız için teşekkürler!"
 
 #: frontend/src/metabase/reference/databases/NoDatabasesEmptyState.jsx:11
 msgid "{0} is no fun without any data"
-msgstr "{0} herhangi bir veri olmadan eğlenceli değildir"
+msgstr "{0} veri olmadan çalışmaz"
 
 #: frontend/src/metabase/visualizations/components/legend/Legend.jsx:79
 msgid "Legend"
-msgstr "Efsane"
+msgstr "Lejant"
 
 #: frontend/src/metabase/home/components/CustomHomePageModal/CustomHomePageModal.tsx:109
 msgid "Pick a dashboard to serve as the homepage. If people lack permissions to view the selected dashboard, {0} will redirect them to the default homepage. You can update or reset the homepage at any time in Admin Settings > Settings > General."
@@ -32664,7 +32664,7 @@ msgstr "Metatabanı örneği sürüm bilgileri"
 
 #: frontend/src/metabase/components/ErrorPages/ErrorDiagnosticModal.tsx:255
 msgid "Oops, something went wrong"
-msgstr "Oops, bir şeyler ters gitti"
+msgstr "Bir hata oluştu"
 
 #: frontend/src/metabase/components/ErrorPages/ErrorDiagnosticModal.tsx:260
 msgid "We've run into an error, try to refresh the page or go back."
